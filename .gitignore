@@ -1,0 +1,10 @@
+build
+build_debug
+lib
+bin
+*.kdev4
+*.kdev_include_paths
+syntax: glob
+*.orig
+*~
+*.kate-swp

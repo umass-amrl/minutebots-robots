@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+import "radio_protocol_command.proto";
+
+message RadioProtocolWrapper {
+  repeated RadioProtocolCommand command = 1;
+}
